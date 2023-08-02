@@ -1,2 +1,85 @@
+:root {
+  --primary-text-color: #2e2f42;
+}
+
 body {
+  color: #434455;
+  background-color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+}
+
+.list {
+  list-style: none;
+}
+
+.logo-first span {
+  color: #4d5ae5;
+}
+
+.logo-first {
+  color: #2e2f42;
+  text-decoration: none;
+}
+.logo-second span {
+  color: #4d5ae5;
+}
+.logo-second {
+  color: #f4f4fd;
+  text-decoration: none;
+}
+.site-nav .link {
+  color: #2e2f42;
+  text-decoration: none;
+}
+
+.contact .link {
+  color: #434455;
+  text-decoration: none;
+}
+.contact .link:hover,
+.contact .link:focus {
+  color: #404bbf;
+}
+
+/* Hero */
+.hero {
+  background-color: #2e2f42;
+}
+.hero-title {
+  color: #ffffff;
+}
+
+.button .primary {
+  color: #ffffff;
+  background-color: #4d5ae5;
+}
+.button .primary:hover,
+.button .primary:active,
+.button .primary:focus {
+  background-color: #404bbf;
+}
+
+.section-first {
+  color: #2e2f42;
+}
+.information-list .title {
+  color: var(--primary-text-color);
+}
+
+.section-second {
+  color: #2e2f42;
+  background-color: #e7e9fc;
+}
+
+.section-title {
+  color: var(--primary-text-color);
+}
+
+.section-third {
+  color: #2e2f42;
+  background-color: #f4f4fd;
+}
+footer {
+  color: #f4f4fd;
+  background-color: #2e2f42;
 }
