@@ -11,51 +11,76 @@ body {
 .list {
   list-style: none;
 }
-
-.logo-first span {
-  color: #4d5ae5;
+.link {
+  text-decoration: none;
 }
+
+/* Header */
 
 .logo-first {
-  color: #2e2f42;
-  text-decoration: none;
-}
-.logo-second span {
   color: #4d5ae5;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
-.logo-second {
-  color: #f4f4fd;
-  text-decoration: none;
-}
-.site-nav .link {
+.logo-first span {
   color: #2e2f42;
-  text-decoration: none;
 }
 
-.contact .link {
-  color: #434455;
-  text-decoration: none;
+/* Nav */
+
+.site-nav .list {
+  color: #2e2f42;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
-.contact .link:hover,
-.contact .link:focus {
+.nav .link:hover,
+.nav .link:focus {
+  color: #404bbf;
+}
+
+/* Address */
+
+.address .link {
+  color: #434455;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.address .link:hover,
+.address .link:focus {
   color: #404bbf;
 }
 
 /* Hero */
+
 .hero {
   background-color: #2e2f42;
 }
 .hero-title {
   color: #ffffff;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
 }
-
-.button .primary {
+.button {
   color: #ffffff;
   background-color: #4d5ae5;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
 }
-.button .primary:hover,
-.button .primary:active,
-.button .primary:focus {
+.button:hover,
+.button:focus {
   background-color: #404bbf;
 }
 
@@ -79,7 +104,24 @@ body {
   color: #2e2f42;
   background-color: #f4f4fd;
 }
-footer {
-  color: #f4f4fd;
+.footer-list {
   background-color: #2e2f42;
+}
+
+.logo-second {
+  color: #4d5ae5;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.logo-second span {
+  color: #f4f4fd;
+}
+.paragraph {
+  color: #f4f4fd;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
