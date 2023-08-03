@@ -39,8 +39,8 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.nav .link:hover,
-.nav .link:focus {
+.nav-site .link:hover,
+.nav-site .link:focus {
   color: #404bbf;
 }
 
@@ -104,9 +104,8 @@ body {
 
 /* Section-second */
 
-.section-second {
+.section-second .name {
   color: var(--primary-text-color);
-  background-color: #e7e9fc;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -116,7 +115,7 @@ body {
 
 /* Section-third */
 
-.section-third {
+.section-third .name {
   color: var(--primary-text-color);
   background-color: #f4f4fd;
   font-size: 36px;
