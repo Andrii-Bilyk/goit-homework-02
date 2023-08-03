@@ -118,7 +118,7 @@ body {
 .team {
   background-color: #f4f4fd;
 }
-.team-title {
+.team .team-title {
   color: var(--primary-text-color);
   font-size: 36px;
   line-height: 1.11;
