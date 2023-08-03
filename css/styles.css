@@ -32,7 +32,7 @@ body {
 
 /* Nav */
 
-.nav .link {
+.nav-site .link {
   color: #2e2f42;
   font-weight: 500;
   font-size: 16px;
@@ -102,19 +102,32 @@ body {
   letter-spacing: 0.02em;
 }
 
+/* Section-second */
+
 .section-second {
-  color: #2e2f42;
+  color: var(--primary-text-color);
   background-color: #e7e9fc;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
 
-.section-title {
-  color: var(--primary-text-color);
-}
+/* Section-third */
 
 .section-third {
-  color: #2e2f42;
+  color: var(--primary-text-color);
   background-color: #f4f4fd;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
+
+/* Footer */
+
 .footer-list {
   background-color: #2e2f42;
 }
