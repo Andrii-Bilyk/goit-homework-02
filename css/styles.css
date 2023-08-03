@@ -126,16 +126,14 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
-.ourteam {
-  background-color: #ffffff;
-}
-.ourteam .title {
+
+.team-title .title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
-.ourteam .text {
+.team-title .text {
   color: var(--primary-text-color);
   font-size: 16px;
   line-height: 1.5;
