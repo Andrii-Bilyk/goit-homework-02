@@ -129,13 +129,13 @@ body {
 .ourteam-icon {
   background-color: #ffffff;
 }
-.team-title .title {
+.ourteam-icon .title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
-.team-title .text {
+.ourteam-icon .text {
   color: var(--primary-text-color);
   font-size: 16px;
   line-height: 1.5;
