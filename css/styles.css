@@ -46,17 +46,17 @@ body {
 
 /* Address */
 
-.address .link {
+.addres .link {
   color: #434455;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.address address {
+.addres address {
   font-style: normal;
 }
-.address .link:hover,
-.address .link:focus {
+.addres .link:hover,
+.addres .link:focus {
   color: #404bbf;
 }
 
@@ -126,7 +126,9 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
-
+.ourteam-icon {
+  background-color: #ffffff;
+}
 .team-title .title {
   font-weight: 500;
   font-size: 20px;
