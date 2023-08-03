@@ -48,10 +48,12 @@ body {
 
 .address .link {
   color: #434455;
-  font-style: normal;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+.address address {
+  font-style: normal;
 }
 .address .link:hover,
 .address .link:focus {
@@ -85,11 +87,19 @@ body {
   background-color: #404bbf;
 }
 
-.section-first {
-  color: #2e2f42;
-}
-.information-list .title {
+/* Section-first */
+
+.information .title {
   color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.information .text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .section-second {
